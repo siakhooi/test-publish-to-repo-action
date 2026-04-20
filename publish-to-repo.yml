@@ -1,0 +1,11 @@
+repo: username/test-publish-to-repo-action-target
+branch: main
+git_commit_user: tester123
+git_commit_email: tester123@example.com
+git_commit_message: "test123: Auto deploy"
+
+files:
+  - source: src/a.txt
+    target: path/in/target1/a.txt
+  - source: src/dir1
+    target: path/in/target2/dir1
