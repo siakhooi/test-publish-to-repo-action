@@ -1,4 +1,4 @@
-repo: username/test-publish-to-repo-action-target
+repo: siakhooi/test-publish-to-repo-action-target
 branch: main
 git_commit_user: tester123
 git_commit_email: tester123@example.com
