@@ -6,6 +6,12 @@ git_commit_message: "test123: Auto deploy"
 
 files:
   - source: src/a.txt
-    target: path/in/target1/a.txt
+    target: path2/in/file-to-file/a.txt
+  - source: src/*.txt
+    target: path2/in/wild-file-to-file/b.txt
   - source: src/dir1
-    target: path/in/target2/dir1
+    target: path2/in/dir-to-dir/dir1/
+  - source: src/dir1/*.yaml
+    target: path2/in/wild-file-to-dir/dir2/
+  - source: src/dir*
+    target: path2/in/wild-dir-to-dir/dir3/
