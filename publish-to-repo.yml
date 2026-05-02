@@ -16,10 +16,10 @@ files:
     items: 1
   - source: src/dir1
     target: path3/in/dir-to-dir/dir1/
-    items: 3
+    items: 1
   - source: src/dir1/*.txt
     target: path3/in/wild-file-to-dir/dir2/
     items: 2
   - source: src/dir*
     target: path3/in/wild-dir-to-dir/dir3/
-    items: 2
+    items: 1
