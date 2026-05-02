@@ -7,7 +7,7 @@ git_commit_message: "test123: Auto deploy"
 files:
   - source: src/a.txt
     target: path3/in/file-to-file/a.txt
-    items: 1
+    items: 2
   - source: src/a*.txt
     target: path3/in/wild-file-to-dir/dir0/
     items: 2
