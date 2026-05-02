@@ -13,10 +13,10 @@ files:
     items: 2
   - source: src/*2.txt
     target: path3/in/wild-file-to-file/b.txt
-    items: 2
+    items: 1
   - source: src/dir1
     target: path3/in/dir-to-dir/dir1/
-    items: 1
+    items: 3
   - source: src/dir1/*.txt
     target: path3/in/wild-file-to-dir/dir2/
     items: 2
